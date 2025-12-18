@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @RestController
 public class SpringDemoAzureApplication {
 
-    @Getmapping("/message")
+    @GetMapping("/message")
     public String message(){
         return  "Congrats! youR app deployed successfully in Azure ";
     }
