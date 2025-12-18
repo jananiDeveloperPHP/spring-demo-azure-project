@@ -1,0 +1,11 @@
+# Ignore Maven target directory
+target/
+
+# Ignore IDE files
+*.iml
+.idea/
+*.sw?
+
+# Ignore system files
+.DS_Store
+thumbs.db
